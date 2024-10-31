@@ -33,61 +33,12 @@ AltTexture{ -- Marvel Planets
     set = 'Planet',
     path = 'marvel_universe.png',
     original_sheet = true,
-    loc_txt = {
-        name = 'Marvel Universe'
-    },
-    localization = {
-        c_mercury = {
-            name = 'Knowhere',
-            badge = 'badge_space_station',
-        },
-        c_venus = {
-            name = 'Sakaar',
-        },
-        c_earth = {
-            name = 'Battleworld',
-        },
-        c_mars = {
-            name = 'Ego',
-        },
-        c_jupiter = {
-            name = 'Asgard',
-            badge = 'badge_realm',
-        },
-        c_saturn = {
-            name = 'Vormir',
-        },
-        c_uranus = {
-            name = 'Xandar',
-        },
-        c_neptune = {
-            name = 'Archeopia',
-        },
-        c_pluto = {
-            name = 'Asteriod M',
-            badge = 'badge_space_station',
-        },
-        c_planet_x = {
-            name = 'The Negative Zone',
-            badge = 'badge_universe',
-        },
-        c_ceres = {
-            name = 'The White Hot Room',
-            badge = 'badge_realm',
-        },
-        c_eris = {
-            name = 'The House of Ideas',
-            badge = 'badge_plane',
-        },
-    }
+    localization = true
 }
 AltTexture{ -- Marvel Boosters
     key = 'boosters',
     set = 'Booster',
     path = 'marvel_universe_boosters.png',
-    loc_txt = {
-        name = 'Marvel Universe Boosters',
-    },
     keys = {
         'p_celestial_normal_1',
         'p_celestial_normal_2',
@@ -106,12 +57,7 @@ AltTexture{
     path = 'marvel_universe.png',
     original_sheet = true,
     keys = {'c_black_hole'},
-    loc_txt = {name = 'Black Hole Texture'},
-    localization = {
-        c_black_hole = {
-            name = 'The Multiverse',
-        },
-    }
+    localization = true
 }
 TexturePack{ -- Marvel Texture Pack
     key = 'marvel_universe',
@@ -120,13 +66,4 @@ TexturePack{ -- Marvel Texture Pack
         'marvel_planets',
         'marvel_boosters',
     },
-    loc_txt = {
-        name = 'Marvel Universe',
-        text = {
-            'Reskins {C:planet}Planet{} cards',
-            'and boosters to be {C:attention}Marvel',
-            'themed'
-        }
-    },
-    
 }
