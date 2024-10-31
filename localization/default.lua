@@ -75,14 +75,12 @@ return {
             }
         },
         texture_packs = {
-            texpack_marvel_marvel_universe = {
-                {
-                    name = 'Marvel Universe',
-                    text = {
-                        'Reskins {C:planet}Planet{} cards',
-                        'and boosters to be {C:attention}Marvel',
-                        'themed'
-                    }
+            texpack_marvel_universe = {
+                name = 'Marvel Universe',
+                text = {
+                    'Reskins {C:planet}Planet{} cards',
+                    'and boosters to be {C:attention}Marvel',
+                    'themed'
                 }
             }
         }
