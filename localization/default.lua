@@ -64,15 +64,6 @@ return {
                 },
                 name = 'Marvel Universe Black Hole'
             },
-            alt_tex_tspa_deck = {
-                b_ghost = {
-                    text = {
-                        "{C:spectral}Spectrans{} cards may",
-                        "appear in the shop,",
-                        "start with a {C:spectral,T:c_hex}Hex{} card",
-                    }
-                }
-            }
         },
         texture_packs = {
             texpack_marvel_universe = {
